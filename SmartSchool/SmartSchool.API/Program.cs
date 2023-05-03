@@ -10,22 +10,25 @@ builder.Configuration
     .AddJsonFile("appsettings.json", true, true)
     .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", true, true)
     .AddEnvironmentVariables();
+// injecao de dependencia
 
+builder.Services.AddScoped<SmartContext>();
+builder.Services.AddScoped<IRepository, Repository>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<SmartContext>();
-
-
+builder.Services.AddControllers()
+                .AddNewtonsoftJson( // Ignorando o LOOPING INFINITO DO *JSON*
+                    opt => opt.SerializerSettings.ReferenceLoopHandling =
+                        Newtonsoft.Json.ReferenceLoopHandling.Ignore);
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
 builder.Services.AddDbContext<SmartContext>(option =>
-{
-    option.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
+{    option.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
 });
 
 var app = builder.Build();
