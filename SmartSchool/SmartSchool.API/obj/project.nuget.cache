@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C3Yo+T9+uiyMfpXAjJfkiUC1djOkDp1gFbNozbkg3qLH6tWQWUZm1BwXA/m/KeqdvizDHl9ioX4F/fnqZIjpLw==",
+  "dgSpecHash": "ulBsd3ejPxnqbD2wYsLtFnhsA4TggJmm0YT3qXRVoKsQlujGf/c4uJ/LvZte1X8+ZFpsVoVoXqoZpa+Orj4Wzw==",
   "success": true,
-  "projectFilePath": "d:\\Projetos\\SmartSchool\\SmartSchool\\SmartSchool.API\\SmartSchool.API.csproj",
+  "projectFilePath": "D:\\Projetos\\SmartSchool\\SmartSchool\\SmartSchool.API\\SmartSchool.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dnascimento\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\dnascimento\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

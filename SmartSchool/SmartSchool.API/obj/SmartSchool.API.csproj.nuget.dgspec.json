@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Projetos\\SmartSchool\\SmartSchool\\SmartSchool.API\\SmartSchool.API.csproj": {}
+    "D:\\Projetos\\SmartSchool\\SmartSchool\\SmartSchool.API\\SmartSchool.API.csproj": {}
   },
   "projects": {
-    "d:\\Projetos\\SmartSchool\\SmartSchool\\SmartSchool.API\\SmartSchool.API.csproj": {
+    "D:\\Projetos\\SmartSchool\\SmartSchool\\SmartSchool.API\\SmartSchool.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Projetos\\SmartSchool\\SmartSchool\\SmartSchool.API\\SmartSchool.API.csproj",
+        "projectUniqueName": "D:\\Projetos\\SmartSchool\\SmartSchool\\SmartSchool.API\\SmartSchool.API.csproj",
         "projectName": "SmartSchool.API",
-        "projectPath": "d:\\Projetos\\SmartSchool\\SmartSchool\\SmartSchool.API\\SmartSchool.API.csproj",
+        "projectPath": "D:\\Projetos\\SmartSchool\\SmartSchool\\SmartSchool.API\\SmartSchool.API.csproj",
         "packagesPath": "C:\\Users\\dnascimento\\.nuget\\packages\\",
-        "outputPath": "d:\\Projetos\\SmartSchool\\SmartSchool\\SmartSchool.API\\obj\\",
+        "outputPath": "D:\\Projetos\\SmartSchool\\SmartSchool\\SmartSchool.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dnascimento\\AppData\\Roaming\\NuGet\\NuGet.Config",
