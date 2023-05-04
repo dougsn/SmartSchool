@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ulBsd3ejPxnqbD2wYsLtFnhsA4TggJmm0YT3qXRVoKsQlujGf/c4uJ/LvZte1X8+ZFpsVoVoXqoZpa+Orj4Wzw==",
+  "dgSpecHash": "W2yLXuSynlC5leR7+SCOJw68CWBOA5FnpL2x2nfdvXdc7Apu7aSRpxKNuTYzWlM326/h+cZNX26IfWsRui+2Jw==",
   "success": true,
   "projectFilePath": "D:\\Projetos\\SmartSchool\\SmartSchool\\SmartSchool.API\\SmartSchool.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\dnascimento\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
+    "C:\\Users\\dnascimento\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\dnascimento\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\dnascimento\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\dnascimento\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",

@@ -1,3 +1,4 @@
+using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using SmartSchool.API.Data;
 
@@ -19,6 +20,8 @@ builder.Services.AddControllers()
                 .AddNewtonsoftJson( // Ignorando o LOOPING INFINITO DO *JSON*
                                     opt => opt.SerializerSettings.ReferenceLoopHandling =
                                         Newtonsoft.Json.ReferenceLoopHandling.Ignore);
+// Mapeando as DTOS / Models
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
                                         
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

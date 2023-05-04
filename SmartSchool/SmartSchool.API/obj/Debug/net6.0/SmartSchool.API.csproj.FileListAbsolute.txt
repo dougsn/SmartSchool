@@ -282,3 +282,5 @@ D:\Projetos\SmartSchool\SmartSchool\SmartSchool.API\bin\Debug\net6.0\runtimes\wi
 D:\Projetos\SmartSchool\SmartSchool\SmartSchool.API\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
 D:\Projetos\SmartSchool\SmartSchool\SmartSchool.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 D:\Projetos\SmartSchool\SmartSchool\SmartSchool.API\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\Projetos\SmartSchool\SmartSchool\SmartSchool.API\bin\Debug\net6.0\AutoMapper.dll
+D:\Projetos\SmartSchool\SmartSchool\SmartSchool.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
